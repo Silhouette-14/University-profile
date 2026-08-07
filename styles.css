@@ -408,7 +408,7 @@ button { font: inherit; }
 
 .ledger-table { display: flex; flex-direction: column; }
 
-.ledger-row-head {
+.ledger-row .ledger-row-head {
   display: grid !important;
   grid-template-columns: repeat(4, 1fr) !important;
   width: 100%;
