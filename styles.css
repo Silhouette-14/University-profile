@@ -408,12 +408,12 @@ button { font: inherit; }
 
 .ledger-table { display: flex; flex-direction: column; }
 
-.ledger-row {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
-  gap: 1rem;
-  padding: 0.9rem clamp(1.35rem, 2.5vw, 1.75rem);
+.ledger-row, .ledger-row-head {
+  display: grid !important;
+  grid-template-columns: repeat(4, 1fr) !important;
+  width: 100%;
 }
+
 
 .ledger-row + .ledger-row { border-top: 1px solid var(--border); }
 
