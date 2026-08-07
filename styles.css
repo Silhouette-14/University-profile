@@ -410,7 +410,7 @@ button { font: inherit; }
 
 .ledger-row {
   display: grid;
-  grid-template-columns: 1.4fr 1fr 1fr;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr;
   gap: 1rem;
   padding: 0.9rem clamp(1.35rem, 2.5vw, 1.75rem);
 }
