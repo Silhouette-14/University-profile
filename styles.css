@@ -366,6 +366,12 @@ button { font: inherit; }
   border-color: var(--border);
 }
 
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
 /* ============================================
    ACADEMIC LEDGER
    ============================================ */
