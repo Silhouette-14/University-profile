@@ -452,6 +452,25 @@ button { font: inherit; }
   .ledger-row { grid-template-columns: 1.2fr 1fr 1fr; gap: 0.5rem; padding-inline: 1.1rem; }
 }
 
+.ledger-footnote {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.9rem clamp(1.35rem, 2.5vw, 1.75rem);
+  border-top: 1px solid var(--border);
+  color: var(--text-faint);
+  font-size: var(--fs-label);
+  font-style: italic;
+}
+.ledger-footnote svg { flex-shrink: 0; }
+.ledger-footnote a {
+  color: var(--accent);
+  font-style: normal;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.ledger-footnote a:hover { color: var(--text-primary); }
+
 .testing-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
